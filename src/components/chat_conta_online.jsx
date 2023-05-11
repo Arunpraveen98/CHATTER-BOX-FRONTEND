@@ -51,7 +51,6 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
       }
     } catch (error) {
       // console.log(error);
-      // alert(error);
       console.log(error.response.data.error.message);
       if (error.response.data.error.message === "jwt expired") {
         window.localStorage.removeItem(

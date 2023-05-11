@@ -1,0 +1,148 @@
+.chat-input-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 5% 95%;
+  background-color: rgba(0, 0, 0, 0.934);
+  padding: 22px;
+}
+
+.chat-input-container .button-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  position: relative;
+}
+.chat-input-container .button-container .emoji {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+.chat-input-container .button-container .emoji .emoji-icon {
+  font-size: 2rem;
+  color: #ffff00c8;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 10%;
+}
+.chat-input-container .input-container {
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ffffff34;
+}
+.chat-input-container .input-container .message-input {
+  width: 90%;
+  height: 60%;
+  background-color: transparent;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.chat-input-container .input-container .message-input::selection {
+  background-color: #9a86f3;
+}
+.chat-input-container .input-container .message-input:focus {
+  outline: none;
+}
+.chat-input-container .input-container button {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1bf01e;
+  border: none;
+}
+
+.chat-input-container .input-container button svg {
+  font-size: 2rem;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .chat-input-container {
+    grid-template-columns: 10% 90%;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .send-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .chat-input-container .button-container .emoji .emoji-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .chat-input-container .input-container {
+    padding-right: 6px;
+  }
+  em-emoji-picker {
+    --border-radius: 24px !important;
+    --category-icon-size: 18px !important;
+
+    --font-family: "Kaushan Script", cursive !important;
+    --font-size: 12px !important;
+    --rgb-accent: 255, 105, 180 !important;
+
+    width: 250px !important;
+    height: 300px !important;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+  .chat-input-container {
+    grid-template-columns: 8% 92%;
+  }
+  .chat-input-container .button-container .emoji .emoji-icon {
+    width: 20px;
+    height: 20px;
+    bottom: 10% !important;
+  }
+  .chat-input-container .input-container button {
+    padding: 0.3rem 1rem;
+  }
+
+  .chat-input-container .input-container button svg {
+    font-size: 1rem;
+  }
+  .chat-input-container .button-container .emoji .emoji-icon {
+    width: 20px;
+    height: 20px;
+  }
+  em-emoji-picker {
+    --border-radius: 24px !important;
+    --category-icon-size: 18px !important;
+
+    --font-family: "Kaushan Script", cursive !important;
+    --font-size: 12px !important;
+    --rgb-accent: 255, 105, 180 !important;
+
+    width: 300px !important;
+    height: 350px !important;
+  }
+}
+
+em-emoji-picker {
+  --background-rgb: 85, 170, 255;
+  --border-radius: 10px !important;
+  --category-icon-size: 24px;
+  --color-border-over: rgba(0, 0, 0, 0.1);
+  --color-border: rgba(0, 0, 0, 0.05);
+  --font-family: "Kaushan Script", cursive !important;
+  --font-size: 16px;
+  --rgb-accent: 255, 105, 180;
+  --rgb-background: 262, 240, 283;
+  --rgb-color: 102, 51, 153;
+  --rgb-input: 255, 235, 235;
+  --shadow: 5px 5px 15px -8px rebeccapurple;
+  width: 350px;
+  height: 350px;
+}

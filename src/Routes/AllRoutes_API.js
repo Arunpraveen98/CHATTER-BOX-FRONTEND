@@ -1,0 +1,9 @@
+export const SERVER_HOST = process.env.REACT_APP_SERVER_API;
+export const Login_Route = `${SERVER_HOST}/USER/AUTH/User-Login`;
+export const Register_Route = `${SERVER_HOST}/USER/AUTH/User-Register`;
+export const Logout_Route = `${SERVER_HOST}/USER/AUTH/User-Logout`;
+export const All_Users_Route = `${SERVER_HOST}/USER/AUTH/All-Users`;
+export const Set_Avatar_Route = `${SERVER_HOST}/USER/AUTH/Set-Avatar`;
+export const Set_DefaultAvatar_Route = `${SERVER_HOST}/USER/AUTH/Get-Avatar`;
+export const Send_Message_Route = `${SERVER_HOST}/USER/MESSAGES/Add-Message`;
+export const Recieve_Message_Route = `${SERVER_HOST}/USER/MESSAGES/Get-Message`;

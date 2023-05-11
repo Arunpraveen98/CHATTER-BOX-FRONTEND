@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.message-div {
+  margin-left: 10px;
+}
+.user-name {
+  color: #0ed7ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.welcome-description {
+  font-family: "Alkatra", cursive;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .message-div {
+    margin-left: 8px;
+  }
+  .welcome-img {
+    width: 150px;
+  }
+  .user-name {
+    font-size: 20px;
+  }
+  .welcome-description {
+    font-size: 16px;
+  }
+}

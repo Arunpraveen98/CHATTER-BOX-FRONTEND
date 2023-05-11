@@ -1,0 +1,124 @@
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .Avatar-Container {
+    gap: 2.5rem !important;
+  }
+
+  .Avatar-Container .title-container h1 {
+    font-size: 16px !important;
+  }
+  .Avatar-Container .submit-btn {
+    padding: 1rem 1rem !important;
+
+    font-size: 12px !important;
+    width: 250px !important;
+  }
+}
+@media screen and (min-width: 320px) {
+  .Avatar-Container .avatars .avatar img {
+    height: 4rem !important;
+
+    margin-right: 10px !important;
+  }
+}
+@media screen and (min-width: 375px) {
+  .Avatar-Container .avatars .avatar img {
+    height: 4.5rem !important;
+
+    margin-right: 14px !important;
+  }
+}
+@media screen and (min-width: 425px) {
+  .Avatar-Container .avatars .avatar img {
+    height: 4.8rem !important;
+
+    margin-right: 32px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Avatar-Container .avatars .avatar img {
+    height: 5rem !important;
+
+    margin-right: 40px !important;
+  }
+}
+/* @media screen and (max-width: 770px) {
+    .Avatar-Container .avatars {
+    
+      padding: 15px !important;
+      border: 1px solid wheat;
+    }
+  } */
+
+.Avatar-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #131324;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Avatar-Container .loader {
+  max-inline-size: 100%;
+}
+
+.Avatar-Container .title-container h1 {
+  color: white;
+  font-size: 35px;
+  font-family: "Carter One", cursive;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.Avatar-Container .avatars {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid white; */
+  padding: 5px;
+}
+
+.Avatar-Container .avatars .avatar {
+  border: 0.4rem solid transparent;
+  padding: 0.4rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.Avatar-Container .avatars .avatar img {
+  height: 6rem;
+  transition: 0.5s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  padding: 1px;
+  margin-right: 2px;
+  /* box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px; */
+  /* box-shadow: 2px 4px 5px rgba(15, 219, 202, 0.856); */
+}
+
+.Avatar-Container .avatars .avatar.selected img {
+  border: 4px solid #0eff12d2;
+}
+
+.Avatar-Container .submit-btn {
+  background-color: #4e0eff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 14px;
+  width: 300px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.Avatar-Container .submit-btn:hover {
+  background-color: #4e0eff;
+}

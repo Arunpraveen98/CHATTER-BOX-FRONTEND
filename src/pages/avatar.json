@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Wayfarers&hairColor=Red&facialHairType=MoustacheFancy&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Skull&eyeType=Close&eyebrowType=RaisedExcited&mouthType=Disbelief&skinColor=Tanned"
+  },
+  {
+    "id": 2,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=WinterHat4&accessoriesType=Blank&hatColor=Red&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelRed&graphicType=Diamond&eyeType=WinkWacky&eyebrowType=UnibrowNatural&mouthType=Disbelief&skinColor=Light"
+  },
+  {
+    "id": 3,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads02&accessoriesType=Prescription01&hatColor=PastelOrange&hairColor=PastelPink&facialHairType=MoustacheMagnum&facialHairColor=BlondeGolden&clotheType=GraphicShirt&clotheColor=White&graphicType=Deer&eyeType=EyeRoll&eyebrowType=RaisedExcitedNatural&mouthType=Serious&skinColor=Light"
+  },
+  {
+    "id": 4,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Wayfarers&hairColor=Red&facialHairType=MoustacheFancy&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Skull&eyeType=Close&eyebrowType=RaisedExcited&mouthType=Disbelief&skinColor=Tanned"
+  },
+  {
+    "id": 5,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Prescription01&hatColor=Heather&hairColor=Blue&facialHairType=BeardMajestic&facialHairColor=Red&clotheType=CollarSweater&clotheColor=Pink&eyeType=Wink&eyebrowType=AngryNatural&mouthType=Grimace&skinColor=Light"
+  },
+  {
+    "id": 6,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hatColor=White&hairColor=Platinum&facialHairType=Blank&facialHairColor=BrownDark&clotheType=CollarSweater&clotheColor=PastelOrange&eyeType=Wink&eyebrowType=SadConcernedNatural&mouthType=Grimace&skinColor=Brown"
+  },
+  {
+    "id": 7,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Prescription02&hatColor=PastelGreen&hairColor=Blue&facialHairType=MoustacheMagnum&facialHairColor=Black&clotheType=BlazerSweater&clotheColor=Heather&eyeType=Happy&eyebrowType=SadConcerned&mouthType=Grimace&skinColor=Pale"
+  },
+  {
+    "id": 8,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairMiaWallace&accessoriesType=Prescription02&hairColor=Red&facialHairType=Blank&facialHairColor=Brown&clotheType=ShirtVNeck&clotheColor=PastelBlue&eyeType=Cry&eyebrowType=AngryNatural&mouthType=Default&skinColor=Pale"
+  },
+  {
+    "id": 9,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Blank&hatColor=Gray01&facialHairType=BeardMajestic&facialHairColor=Red&clotheType=Overall&clotheColor=Pink&eyeType=Squint&eyebrowType=Default&mouthType=Disbelief&skinColor=Yellow"
+  },
+  {
+    "id": 10,
+    "Avatar_Img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Blank&hairColor=PastelPink&facialHairType=Blank&facialHairColor=BrownDark&clotheType=BlazerSweater&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Sad&skinColor=Tanned"
+  }
+]

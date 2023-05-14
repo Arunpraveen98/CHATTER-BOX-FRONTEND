@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style_Sheet/Welcome_Msg.css";
-export default function Welcome({ currentUser }) {
+function Welcome({ currentUser }) {
   // ---------------------
   let Logged_in_user = currentUser.username;
   // ---------------------
@@ -26,3 +26,4 @@ export default function Welcome({ currentUser }) {
     </div>
   );
 }
+export default Welcome;

@@ -11,7 +11,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 // -------------------------------------
-export default function ChatContainer({ currentChat, currentUser, socket }) {
+function ChatContainer({ currentChat, currentUser, socket }) {
   const [messages, setMessages] = useState([]);
   const [arrivalMessage, setArrivalMessage] = useState(null);
   const navigate = useNavigate();
@@ -173,3 +173,4 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
     </>
   );
 }
+export default ChatContainer;

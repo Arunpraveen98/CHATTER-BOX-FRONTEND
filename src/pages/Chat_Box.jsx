@@ -8,8 +8,8 @@ import ChatContainer from "../components/Chat_Container";
 import Contacts from "../components/Chat_UsersList";
 import Welcome from "../components/Welcome_Msg";
 import { toast } from "react-toastify";
-
-export default function Chat() {
+import Chatter_box_bg from "../assets/Chatter-box-bg.webp"
+function ChatterBox() {
   const navigate = useNavigate();
   const socket = useRef();
   const [contacts, setContacts] = useState([]);
@@ -41,9 +41,6 @@ export default function Chat() {
     Update_UsersList_Chat();
   }, [currentUser]);
   // ---------------------
-  // useEffect(() => {
-
-  // }, [currentUser]);
   async function Checking_User_Details() {
     try {
       if (!USER_DETAILS) {
@@ -74,7 +71,7 @@ export default function Chat() {
       }
     } catch (error) {
       // console.log(error);
-      console.log(error.response.data.error.message)
+      console.log(error.response.data.error.message);
       if (error.response.data.error.message === "jwt expired") {
         window.localStorage.removeItem(
           `${process.env.REACT_APP_LOCALHOST_KEY}`
@@ -112,7 +109,7 @@ export default function Chat() {
     </>
   );
 }
-
+export default ChatterBox;
 const Container = styled.div`
   height: 100vh;
   width: 100vw;
@@ -126,7 +123,10 @@ const Container = styled.div`
   .container {
     height: 90vh;
     width: 100vw;
-    background-color: #00000076;
+    background-image: url(${Chatter_box_bg});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 25% 75%;
     @media screen and (min-width: 720px) and (max-width: 1080px) {

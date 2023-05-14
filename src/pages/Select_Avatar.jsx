@@ -8,7 +8,7 @@ import { Set_Avatar_Route } from "../Routes/AllRoutes_API";
 import { Set_DefaultAvatar_Route } from "../Routes/AllRoutes_API";
 import { toast } from "react-toastify";
 
-export default function SetAvatar() {
+function SelectAvatar() {
   // ---------------------
   var Buffer = require("buffer/").Buffer;
   const api = process.env.REACT_APP_AVATAR_API;
@@ -192,3 +192,4 @@ export default function SetAvatar() {
     </>
   );
 }
+export default SelectAvatar;

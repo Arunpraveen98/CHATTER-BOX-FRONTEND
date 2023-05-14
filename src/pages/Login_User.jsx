@@ -115,7 +115,7 @@ const USER_LOGIN = () => {
                     {
                       <span
                         style={{
-                          color: "rgb(229, 55, 35)",
+                          color: "red",
                           fontSize: "10px",
                           fontFamily: "Philosopher, sans-serif",
                           letterSpacing: "1px",
@@ -140,7 +140,7 @@ const USER_LOGIN = () => {
                     {
                       <span
                         style={{
-                          color: "rgb(229, 55, 35)",
+                          color: "red",
                           fontSize: "10px",
                           fontFamily: "Philosopher, sans-serif",
                           letterSpacing: "1px",
@@ -153,7 +153,7 @@ const USER_LOGIN = () => {
                   {/* -------------------------------- */}
                   <div className="forgot">
                     <Link rel="noopener noreferrer" href="#">
-                      Forgot Password ?
+                      {/* Forgot Password ? */}
                     </Link>
                   </div>
                   {/* -------------------------------- */}

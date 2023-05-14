@@ -3,8 +3,9 @@ import styled from "styled-components";
 import "../Style_Sheet/Chat_UsersList.css";
 import Logo from "../assets/chat-icon.png";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 // ---------------------
-export default function Contacts({ contacts, changeChat }) {
+function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
   const [currentUserImage, setCurrentUserImage] = useState(undefined);
   const [currentSelected, setCurrentSelected] = useState(undefined);
@@ -41,7 +42,10 @@ export default function Contacts({ contacts, changeChat }) {
   // ---------------------
   const Logout_user = () => {
     window.localStorage.removeItem(process.env.REACT_APP_LOCALHOST_KEY);
-    navigate("/login");
+    toast.success("👋Successfuly Logged Out", { autoClose: 2000 });
+    setTimeout(() => {
+      navigate("/login");
+    }, 2000);
   };
   // ---------------------
   return (
@@ -108,6 +112,7 @@ export default function Contacts({ contacts, changeChat }) {
     </>
   );
 }
+export default Contacts;
 const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;

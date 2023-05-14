@@ -7,7 +7,7 @@ import Picker from "@emoji-mart/react";
 import { useNavigate } from "react-router-dom";
 
 // ---------------------
-export default function ChatInput({ handleSendMsg }) {
+function ChatInput({ handleSendMsg }) {
   const [msg, setMsg] = useState("");
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
   const emojiRef = useRef();
@@ -96,3 +96,4 @@ export default function ChatInput({ handleSendMsg }) {
     </div>
   );
 }
+export default ChatInput;

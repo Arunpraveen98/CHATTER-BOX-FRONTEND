@@ -5,7 +5,7 @@ import styled from "styled-components";
 import axios from "axios";
 import { Logout_Route } from "../Routes/AllRoutes_API";
 import { toast } from "react-toastify";
-export default function Logout() {
+function Logout() {
   // ---------------------
   const USER_DETAILS = JSON.parse(
     window.localStorage.getItem(`${process.env.REACT_APP_LOCALHOST_KEY}`)
@@ -55,7 +55,7 @@ export default function Logout() {
     </Button>
   );
 }
-
+export default Logout;
 const Button = styled.button`
   display: flex;
   justify-content: center;
